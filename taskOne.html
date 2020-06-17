@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>taskOne</title>
+</head>
+<style type="text/css">
+
+	body{
+		font-size: 32px;
+		color: hsl(240, 38%, 20%);
+		background:url();
+	}
+	.container{
+		width: 1000px;
+		max-width: 1000px;
+		height: 650px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-around;
+	}
+	#image-tanya{
+		width: 450px;
+		max-width: 450px;
+		height: 75%;
+		object-fit: cover;
+		margin-top: 60px;
+		margin-left: 40px;
+
+	}
+	.picture{
+		background:url(pattern-bg.svg);
+		background-repeat: no-repeat;
+		width: 600px;
+		max-width: 550px;
+		height: 550px;
+		background-size: contain;
+		margin-top: 50px;
+		margin-left: 70px;
+	}
+	.text{
+		width: 400px;
+		max-width: 400px;
+		display: flex;
+		justify-content: center;
+	}
+	#text{
+		position: absolute;
+		width: 560px;
+		max-width: 560px;
+		top: 180px;
+		margin-left: 78px;
+	}
+	#special{
+		color: hsl(240, 18%, 77%);
+	}
+	#back{
+		position: absolute;
+		top: 510px;
+		left: 130px
+		
+	}
+	.john{
+		display: none;
+	}
+	#curve{
+		width:70%;
+		height: 50%
+	}
+	#quote{
+		position: absolute;
+		top: 175px;
+		left: 248px
+		
+	}
+	#pattern-quotes{
+		width:70%;
+		height: 70%
+	}
+	.navigate{
+		position: relative;
+		width: 80px;
+		height: 45px;
+		border-radius: 25px;
+		background-color: white;
+		bottom:160px;
+		left: 50%;
+		padding-left: 35px;
+	}
+	#move{
+		background:white;
+		border:white;
+	}
+	#move:hover{
+		background-color: lightgrey;
+		cursor: pointer;
+	}
+	@media screen and (max-width: 768px){
+		body{
+			font-size: 32px;
+			font-size: 20px;
+		}
+		.container{
+			display: inline-block;
+		}
+		.picture{
+		width: 300px;
+		max-width: 300px;
+		height: 300px;
+		margin-top: 0
+		}
+		#image-tanya{
+		width: 200px;
+		max-width: 200px;
+		height: 75%;
+		position: relative;
+		top: -30px;
+		left: 10px
+		}
+		.text{
+		width: 200px;
+		max-width: 200px;
+	}
+	#text{
+		position: absolute;
+		width: 360px;
+		max-width: 360px;
+		top: 320px;
+		margin-left: 168px;
+
+	}
+	#back{
+		position: absolute;
+		top: 510px;
+		left: 70px
+		
+	}
+	#curve{
+		width:70%;
+		height: 50%
+	}
+	#quote{
+		position: absolute;
+		top: 320px;
+		left: 220px
+		
+	}
+	#pattern-quotes{
+		width:40%;
+		height: 40%
+	}
+	.navigate{
+		position: relative;
+		width: 30px;
+		height: 25px;
+		border-radius: 25px;
+		background-color: white;
+		bottom:420px;
+		left: 30%;
+		padding-left: 35px;
+	}
+	#move{
+		width: 20%;
+		padding-right: 20%;
+		position: relative;
+		right: 25px
+	}
+</style>
+<body>
+
+<div class="container">
+
+	<div class="text"> 
+		<div id="text">
+		<p>
+			 “ I’ve been interested in coding for a while but never taken the jump, until now. 
+  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+  excited about the future. ”
+
+  <span id="special">Tanya Sinclair</span>
+  UX Engineer
+		</p>
+		</div>
+	</div>
+	<div class="picture">
+ 		<img id="image-tanya" src="image-tanya.jpg">
+  	</div>
+  	
+	
+</div>
+
+<div id="back">
+	<img id="curve" src="pattern-curve.svg">
+</div>
+<div id="quote">
+	<img id="pattern-quotes" src="pattern-quotes.svg">
+</div>
+
+<div class="navigate">
+  		
+  		<button id="move" class="previous"><img src="icon-prev.svg"></button>
+  		<button id="move" class="next"><img src="icon-next.svg"></button>
+  	</div>
+
+<section class="john">
+  	<div class="container">
+
+	<div class="text"> 
+		<div id="text">
+		<p>
+			 “ I’ve been interested in coding for a while but never taken the jump, until now. 
+  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+  excited about the future. ”
+
+  <span id="special">Tanya Sinclair</span>
+  UX Engineer
+		</p>
+		</div>
+	</div>
+
+	<div class="picture">
+ 		<img id="image-tanya" src="image-john.jpg">
+  	</div>
+  	
+	
+</div>
+
+<div id="back">
+	<img id="curve" src="pattern-curve.svg">
+</div>
+<div id="quote">
+	<img id="pattern-quotes" src="pattern-quotes.svg">
+</div>
+
+<div class="navigate">
+  		
+  		<button id="move" class="previous"><img src="icon-prev.svg"></button>
+  		<button id="move" class="next"><img src="icon-next.svg"></button>
+  	</div>
+  	</section>
+</body>
+</html>
